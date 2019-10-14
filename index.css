@@ -1,0 +1,132 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.header{
+	width: 100%;
+	height: 35px;
+	background-color: pink;
+	border: #996633 solid 5px;
+}
+.center{
+	width: 100%;
+	height: 600px;
+}
+.left{
+	width: 60%;
+	height: 600px;
+	float: left;
+}
+.top{
+	width: 100%;
+	height: 300px;
+	background-color: #66ff66;
+	border-left: #996633 solid 5px;
+	border-right: #996633 solid 5px;
+	border-bottom: #996633 solid 5px;
+	
+}
+.bottom{
+	width: 100%;
+	height: 300px;
+}
+.left1{
+	width: 50%;
+	height: 300px;
+	float: left;
+}
+.header1{
+	width: 100%;
+	height: 120px;
+	background-color: #ff3300;
+	border-left:  #996633 solid 5px;
+	border-bottom: #996633 solid 5px;
+}
+.bottom1{
+	width: 100%;
+	height: 180px;
+	background-color: #ff6600;
+	border-left: #996633 solid 5px;
+	
+}
+.right1{
+	width: 50%;
+	height: 300px;
+	background-color: #ff00ff;
+	float: right;
+	border-right: #996633 solid 5px;
+	border-left: #996633 solid 5px;
+}
+.right{
+	width: 40%;
+	height: 600px;
+	float: right;
+}
+.header2{
+	width: 100%;
+	height: 120px;
+}
+.topleft{
+	width: 75%;
+	height: 120px;
+	background-color: #6600cc;
+	float: left;
+	border-right: #996633 solid 5px;
+	border-bottom: #996633 solid 5px;
+}
+.topright{
+	width: 25%;
+	height: 120px;
+	background-color: #003300;
+	float: right;
+	border-right: #996633 solid 5px;
+	border-bottom: #996633 solid 5px;
+}
+.top2{
+	width: 100%;
+	height: 100px;
+	background-color: #ffff00;
+	border-right: #996633 solid 5px;
+	border-bottom: #996633 solid 5px;
+}
+.bottom2{
+	width: 100%;
+	height: 280px;
+	display: flex;
+}
+.left2{
+	width: 33%;
+	height: 280px;
+	background-color: #33cc33;
+	border-right: #996633 solid 5px;
+}
+.center2{
+	width: 33%;
+	height: 280px;
+	background-color: #ff3300;
+	border-right: #996633 solid 5px;
+	
+}
+.right2{
+	width: 34%;
+	height: 280px;
+	background-color: #33cc33;
+	border-right: #996633 solid 5px;
+}
+.footer2{
+	width: 100%;
+	height: 100px;
+	background-color: #669999;
+	border-right: #996633 solid 5px;
+	border-top: #996633 solid 5px;
+	
+}
+.footer{
+	width: 100%;
+	height: 35px;
+	background-color: black;
+	border: #996633 solid 5px;
+	clear: both;
+}
+
