@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tao MENU</title>
+</head>
+<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	#body{
+		font-family: sans-serif;
+		font-size: 20px;
+	}
+	#menu ul{
+		list-style-type: none;/*bỏ dấu chấm đầu dòng*/
+		background: blue;
+		text-align: center;
+		width: 250px;
+	}
+	#menu ul li{
+		color: black;
+		width: auto;
+		height: 40px;
+		line-height: 40px;
+		border-bottom: 1px solid red;
+		position: relative;
+	}
+	#menu ul li a{
+		text-decoration: none;/*bỏ dấu gạch chân */
+		color: black;
+		font-weight: bold;
+		display: block;
+	}
+	#menu ul li:hover{
+		background: #CDE2CD;
+	}
+	#menu ul li >.sub-menu{
+		position: absolute;
+		left: 200px;
+		top: 0px;
+		display: none;
+	}
+	#menu ul li:hover .sub-menu{
+		display: block;
+	}
+</style>
+<body>
+	<div id="menu">
+		<ul>
+			<li><a href="#">Item1</a></li>
+			<li>
+				<a href="#">Item2</a>
+				<ul class="sub-menu">
+					<li><a href="#">Item1-a</a></li>
+					<li><a href="#">Item2-a</a></li>
+					<li><a href="#">Item3-a</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Item3</a></li>
+			<li><a href="#">Item4</a></li>
+			<li><a href="#">Item5</a></li>
+		</ul>
+	</div>
+</body>
+</html>

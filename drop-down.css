@@ -1,0 +1,33 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	body{
+		font-family: sans-serif;
+		color: #333;
+
+	}
+	#menu ul{
+		list-style-type: none;/*bỏ nhuwxg dấu chấm đầu dòng*/
+		background: blue;
+		text-align: center;
+	}
+	#menu ul li{
+		display: inline-table;/*cùng năm trên 1 dòng*/
+		color: #f1f1f1;
+		width: 150px;
+		height: 40px;
+		line-height: 40px;
+		position: relative;
+	}
+	#menu ul li a{
+		color: #f1f1f1;
+		text-decoration: none;
+		display: block;
+	}
+	#menu ul li a:hover{
+		background: #f1f1f1;
+		color: #333;
+	}
+
+	

@@ -237,7 +237,6 @@
 	height: 150px;
 	margin-top: 5px;
 }
-
 #center1{
 	width: 100%;
 	height: 50px;
@@ -326,277 +325,75 @@
 .mau1{
 	color: blue;
 }
-
 #center3{
 	width: 100%;
 	height: 50px;
+	background: blue;
 	margin-top: 30px;
-}
-#center3 ul{
-	margin: 0px;
-	padding: 0px;
-}
-#center3 ul li{
-	display: inline-table;
-	width: 150px;
-	font-size: 14px;
-	line-height: 50px;
-	color:#3366ff;
-}
-#center3 ul li:hover{
-	color: red;
-}
-.desktop{
-	background: #99ccff;
 }
 #center4{
 	width: 100%;
 	height: 250px;
+	background: red;
 	margin-top: 15px;
-}
-#hinh1{
-	margin-right: 5px;
-	float: left;
-}
-#hinh2{
-	width: 295px;
-	height: 250px;
-	float: left;
-	margin-right: 5px;
-}
-#hinh4{
-	width: 295px;
-	height: 70px;
-	font-size: 13px;
-	text-align: center;
-}
-#center4 #hinh2 #hinh4:hover{
-	color: yellow;
-}
-#hinh5{
-	width: 295px;
-	height: 250px;
-	float: left;
-	margin-left: 5px;
-}
-#hinh7{
-	width: 295px;
-	height: 70px;
-	font-size: 13px;
-	text-align: center;
-}
-#center4 #hinh5 #hinh7:hover{
-	color: yellow;
-}
-#hinh8{
-	width: 295px;
-	height: 250px;
-	margin-left: 5px;
-	float: right;
-}
-#hinh10{
-	width: 295px;
-	height: 70px;
-	font-size: 13px;
-	text-align: center;
-}
-#center4 #hinh8 #hinh10:hover{
-	color: yellow;
 }
 #center5{
 	width: 100%;
+	height: 50px;
+	background: blue;
 	margin-top: 30px;
 }
-#center5 ul{
-	padding: 0px;
-	margin: 0px;
-}
-
-#center5 ul li{
-	display: inline-table;
-	font-size: 14px;
-	width: 130px;
-	background:#ffff99;
-	text-align: center;
-	padding: 5px;
-}
-#center5 .hung10{
-	background: #ff6699;
-	color: red;
-}
 #center6{
-	margin-top: 20px;
-}
-#noname1{
-	width: 10px;
-	height: 20px;
-	background: blue;
-	float: left;
-	margin-right: 10px;
-}
-#noname2{
-	color: blue;
-	font-size: 20px;
+	width: 100%;
+	height: 250px;
+	background: red;
+	margin-top: 15px;
 }
 #center7{
 	width: 100%;
-	height: 500px;
-	margin-top: 20px;
-}
-#bentrai{
-	height: 100%;
-	float:left;
-	margin-right: 15px;
-}
-#benphai{
-	width: 300px;
-	height: 500px;
-	float: left;
-}
-#giua{
-	margin-top: 10px;
-
-}
-#duoi{
-	margin-top: 8px;
-}
-#benphai1{
-	width: 375px;
-	height: 500px;
-	margin-left: 15px;
-	float:left;
-}
-#tren1{
-	margin: 0px;
-	padding: 0px;
-	width: 375px;
-	height: 160px;
-}
-#nonamee1{
-	font-weight: bold;
-}
-#nonamee2{
-	font-size: 14px;
-	margin-top: 15px;
-}
-#nonamee3{
-	margin-top: 15px;
-	color: #ffccff;
-}
-#giua1{
-	margin: 0px;
-	padding: 0px;
-	float: left;
-	margin-top: 15px;
-	width: 375px;
-	height: 160px;
-}
-#nonameee1{
-	font-weight: bold;
-}
-#nonameee2{
-	font-size: 14px;
-	margin-top: 15px;
-}
-#nonameee3{
-	margin-top: 15px;
-	color: #ffccff;
-}
-#duoi1{
-	margin: 0px;
-	padding: 0px;
-	float: left;
-	margin-top: 15px;
-	width: 375px;
-	height: 160px;
-}
-#nonameeee1{
-	font-weight: bold;
-}
-
-#nonameeee2{
-	font-size: 14px;
-	margin-top: 15px;
-}
-#nonameeee3{
-	margin-top: 15px;
-	color: #ffccff;
+	height: 50px;
+	background: blue;
+	margin-top: 30px;
 }
 #center8{
 	width: 100%;
-	height: 80px;
+	height: 250px;
+	background: red;
+	margin-top: 15px;
+}
+#center9{
+	width: 100%;
+	height: 50px;
+	background: blue;
 	margin-top: 30px;
 }
-#giaohang{
-	width: 350px;
-	background: #ffff99;
-	height: 80px;
-	float: left;
+#center10{
+	width: 100%;
+	height: 250px;
+	background: red;
+	margin-top: 15px;
 }
-
-#giaohang1{
-	float: left;
-	margin-top: 23px;
-	margin-left: 152px;
-}
-#giaohang2{
+#center11{
+	width: 100%;
+	height: 50px;
+	background: blue;
 	margin-top: 30px;
-	text-indent: 15px;
 }
-#vitri{
-	width: 171px;
-	background: #ffff99;
-	height: 80px;
-	float: left;
+#center12{
+	width: 100%;
+	height: 250px;
+	background: red;
+	margin-top: 15px;
 }
-#vitri1{
-	float: left;
-	margin-top: 23px;
-}
-#vitri2{
+#center13{
+	width: 100%;
+	height: 50px;
+	background: blue;
 	margin-top: 30px;
-	text-indent: 15px;
 }
-#doigia{
-	width: 171px;
-	background: #ffff99;
-	height: 80px;
-	float: left;
-}
-#doigia1{
-	float: left;
-	margin-top: 23px;
-}
-#doigia2{
-	margin-top: 30px;
-	text-indent: 15px;
-}
-#thanhtoan{
-	width: 171px;
-	background: #ffff99;
-	height: 80px;
-	float: left;
-}
-#thanhtoan1{
-	float: left;
-	margin-top: 23px;
-}
-#thanhtoan2{
-	margin-top: 30px;
-	text-indent: 15px;
-}
-#hotro{
-	width: 350px;
-	background: #ffff99;
-	height: 80px;
-	float: left;
-}
-#hotro1{
-	float: left;
-	margin-top: 23px;
-}
-#hotro2{
-	margin-top: 30px;
-	text-indent: 15px;
-		margin-right: 152px;
+#center12{
+	width: 100%;
+	height: 250px;
+	background: red;
+	margin-top: 15px;
 }
