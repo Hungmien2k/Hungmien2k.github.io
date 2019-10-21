@@ -1,64 +1,93 @@
-*{
-	margin: 0px;
-	padding: 0px;
+#menu{
+	width: 100%;
+	height: auto;
 }
-body{
-	font-family: sans-serif;
-	color: #333;
-}
-#menu ul{
-	list-style: none;
-	background: blue;
-}
-#menu ul li{
-	color: #f1f1f1;
-	display: inline-table;
-	width: 120px;
-	height: 50px;
+#sub-menu{
+	width: 100%;
+	background: #ffff99;
 	line-height: 50px;
-	position: relative;
+	padding: 0px;
+	margin: 0px;
 }
-#menu ul li a{
-	color: #f1f1f1;
-	display: block;
-	text-decoration: none;
+#menu #sub-menu li{
+	list-style: none;
+	display: inline-table;
+	width: 150px;
+	height: 50px;
 	text-align: center;
 	position: relative;
 }
-#menu ul li a:hover{
-	background: #f1f1f1;
-	color: #333;
+#menu #sub-menu li a{
+	text-decoration: none;
+	font-size: 20px;
 }
-#menu ul li>.submenu{
+#menu>#sub-menu>li>a:hover{
+	background: #ff99cc;
+	display: block;
+}
+#sub-menu1{
+	width: 150px;
+    padding: 0px;
+    margin: 0px;
+	position: absolute;
+	background: #ffccff;
+	display: none;
+}
+#menu #sub-menu li:hover> #sub-menu1{
+	display: block;
+}
+#sub-menu1 li:hover{
+	background: #3399ff;
+	display: block;
+}
+#sub-menu2{
+	padding: 0px;
+	margin: 0px;
+	width: 150px;
+	background: #006666;
 	display: none;
 	position: absolute;
-	background: yellow;
 }
-#menu ul li:hover .submenu{
+#menu #sub-menu li:hover> #sub-menu2{
+	display: block;
+}
+#sub-menu2 li:hover{
+	display: block;
+	background: #ff00ff;
+}
+#sub-menu3{
+	padding: 0px;
+	margin: 0px;
+	width: 150px;
+	display: none;
+	position: absolute;
+	background: #ffff66;
+}
+#menu #sub-menu li:hover> #sub-menu3{
+	display: block;
+}
+#sub-menu3 li:hover{
+	display: block;
+	background: #ff6600;
+}
+#sub-menu1 li{
+	position: relative;
+}
+#menucon{
+	width: 150px;
+	left: 150px;
+	top: 0px;
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	position: absolute;
+	display: none;
+}
+#menucon li{
+	display: block;
+	background: #ff9966;
+}
+#sub-menu1 li:hover> #menucon{
 	display: block;
 }
 
-#menu ul li>.menu2{
-	display: none;
-	position: absolute;
-	background: #cc66ff;
-}
-#menu ul li:hover .menu2{
-	display: block;
-}
-#menu ul li>.menu3{
-	display: none;
-	position: absolute;
-	background:#99ff66;
-}
-#menu ul li:hover .menu3{
-	display: block;
-}
-#submenu2{
-	position: absolute;
-	left: 120px;
-	top: 0px;
-}
-#submenu ul li:hover #submenu2{
-	display: block;
-}
