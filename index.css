@@ -1,171 +1,171 @@
-*{
-	margin:0px;
-	padding: 0px;
-	box-sizing: border-box;
-}
-#all{
+#cover-image{
 	width: 100%;
-	height: auto;
-	border: 10px solid #ffff66;
+	height: 500px;
 }
-#top{
+#cover-image{
+	width: 100%;
+	height: 500px;
+}
+#cover-image{
+	background-image: url("http://thuthuatphanmem.vn/uploads/2018/04/10/hinh-nen-anh-nang-binh-minh_052333541.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 500px;
+}
+#about-me{
+	width: 100%;
+	height: 100px;
+
+}#cover-image{
+	width: 100%;
+	height: 500px;
+}
+#cover-image{
+	width: 100%;
+	height: 500px;
+}
+#cover-image{
+	background-image: url("http://thuthuatphanmem.vn/uploads/2018/04/10/hinh-nen-anh-nang-binh-minh_052333541.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 500px;
+}
+#about-me{
 	width: 100%;
 	height: 100px;
 
 }
-#top>ul{
-	text-align: center;
+#about-me>ul{
 	list-style: none;
 }
-#top>ul>li{
-	line-height: 50px;
+#about-me>ul>li{
+	font-size: 30px;
+	text-align: center;
+	line-height: 90px;
 }
-#top>ul>li>a{
-	text-decoration: none;
-	color: black;
+#bellow-aboutme{
+	width: 80%;
+	height: 230px;
+	
+	text-align: center;
+	    margin-left: 130px;
 }
-#bellow-top{
-	width: 100%;
-	height: 50px;
-	background: black;
-	line-height: 50px;
-	border-bottom: 10px solid #ffff66;
-}
-#bellow-top>ul>li{
-	color: #f3f3f3;
-	display: inline-table;
-	width: 50px;
-}
-.right-bellow-top{
-	float: right;
+#bellow-aboutme>p{
+	font-size: 25px;
 }
 #center{
-	width: 100%;
+	width: 80%;
+	height: 500px;
+	background:;
+	display: flex;
+	margin-left: 130px;
+}
+#center-left{
+	width: 40%;
+	height: 100%;
+	background: ;
+	position: relative;
+}
+#center-left>img{
+	border-radius: 50%;
+	position: absolute;
+    top: 30px;
+}
+#center-right{
+	width: 60%;
+	height: 100%;
+	background:;
+}
+#center-right>p{
+	font-size: 25px;
+	text-align: center;
+}
+#bellow-center{
+	width: 80%;
 	height: 500px;
 
 	display: flex;
+	margin-left: 130px;
 }
-#right-center{
-	width: 75%;
+#bellow-center-left{
+	width: 60%;
+	height: 100%;
+
+}
+#bellow-center-left>p{
+	font-size: 25px;
+	text-align: center;
+}
+#bellow-center-right{
+	width: 40%;
 	height: 100%;
 	
+	position: relative;
 }
-#left-center{
-	width: 25%;
-	height: 100%;
-	
-}
-#top-right-center{
-	width: 100%;
-	height: 50%;
-
-	border-bottom: 10px solid #ffff66;
-}
-#bottom-right-center{
-	width: 100%;
-	height:50%;
-
-}
-#top-left-center{
-	width: 100%;
-	height: 30%;
-	border-bottom: 10px solid #ffff66;
-	border-left: 10px solid #ffff66;
-}
-#center-left-center{
-	width: 100%;
-	height: 30%;
-
-	border-bottom: 10px solid #ffff66;
-	border-left: 10px solid #ffff66;
-}
-
-#bottom-left-center{
-	width: 100%;
-	height: 40%;
-	background:#999966;
-	border-left: 10px solid #ffff66;
-}
-#top-right-center>ul{
-	margin-left: 20px;
-	list-style: none;
-}
-#top-right-center ul li{
-	line-height: 36px;
-}
-#image{
-	background:#999966;
-	width: 98%;
-	height: 100px;
-}
-#image>li{
-	margin-left: 10px;
-	line-height: 30px;
-}
-#bottom-right-center>ul{
-	margin-left: 20px;
-	list-style: none;
-}
-#bottom-right-center ul li{
-	line-height: 36px;
-}
-#top-left-center>ul{
-	margin-left: 20px;
-	list-style: none;
-}
-#top-left-center>ul>li{
-	line-height: 40px;
-}
-#image1{
-	width: 94%;
-	height: 50px;
-	background: #999966;
-}
-#image1>li{
-	margin-left: 10px;
-	line-height: 30px;
-}
-#center-left-center>ul{
-	margin-left: 20px;	
-	list-style: none;
-}
-#center-left-center>ul>li{
-	line-height: 40px;
-}
-#image2{
-	width: 94%;
-	height: 100px;
-	background: #999966;
-}
-#image2>li{
-	line-height: 33px;
-	margin-left: 10px;
-}
-#bottom-left-center>ul{
-	margin-left: 20px;	
-	list-style: none;
-}
-
-#image3{
-	width: 94%;
-	height: 100px;
-	background:white;
-}
-#image3>li{
-	line-height: 40px;
-	margin-left: 10px;	
+#bellow-center-right>img{
+	border-radius: 50%;
+	 position: absolute;
+    top: 45px;
+    left: 30px;
 }
 #footer{
-	width: 100%;
-	height: 50px;
-	background: #999966;
-	clear: both;
-	line-height: 50px;
-	border-bottom: 10px solid #ffff66;
-	border-left: 10px solid #ffff66;
-	border-right: 10px solid #ffff66;
+	width: 80%;
+	height: 150px;
+	background: #ffcc99;
+	margin-left: 130px;
+	position: relative;
 }
 #footer>ul{
 	list-style: none;
 	text-align: center;
 }
+
+#footer>ul>li{
+	font-size: 30px;
+	font-weight: bold;
+	color: #f3f3f3;
+}
+.icon{
+	font-size: 30px;
+	color: #f3f3f3;
+	position: absolute;
+    left: 550px;
+    top: 70px;
+}
+.fa-facebook-official{
+	margin-right: 20px;
+}
+.fa-youtube-play{
+	margin-right: 20px;
+}
+.fa-facebook-official:hover{
+	color: red;
+}
+.fa-youtube-play:hover{
+	color: red;
+}
+.fa-free-code-camp:hover{
+	color: red;
+}
+#footer>ul{
+	line-height: 60px;
+}
+.power1{
+	position: absolute;
+    top: 30px;
+    left: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
