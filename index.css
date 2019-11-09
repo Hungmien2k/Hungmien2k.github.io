@@ -1,171 +1,175 @@
-#cover-image{
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#all{
 	width: 100%;
-	height: 500px;
+	height: auto;
 }
-#cover-image{
+#menu{
 	width: 100%;
-	height: 500px;
+	height: 60px;
+	background: white;
 }
-#cover-image{
-	background-image: url("http://thuthuatphanmem.vn/uploads/2018/04/10/hinh-nen-anh-nang-binh-minh_052333541.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100%;
-  height: 500px;
-}
-#about-me{
-	width: 100%;
-	height: 100px;
-
-}#cover-image{
-	width: 100%;
-	height: 500px;
-}
-#cover-image{
-	width: 100%;
-	height: 500px;
-}
-#cover-image{
-	background-image: url("http://thuthuatphanmem.vn/uploads/2018/04/10/hinh-nen-anh-nang-binh-minh_052333541.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100%;
-  height: 500px;
-}
-#about-me{
-	width: 100%;
-	height: 100px;
-
-}
-#about-me>ul{
+#menu>ul{
 	list-style: none;
-}
-#about-me>ul>li{
-	font-size: 30px;
-	text-align: center;
-	line-height: 90px;
-}
-#bellow-aboutme{
-	width: 80%;
-	height: 230px;
-	
-	text-align: center;
-	    margin-left: 130px;
-}
-#bellow-aboutme>p{
-	font-size: 25px;
-}
-#center{
-	width: 80%;
-	height: 500px;
-	background:;
-	display: flex;
-	margin-left: 130px;
-}
-#center-left{
-	width: 40%;
-	height: 100%;
-	background: ;
-	position: relative;
-}
-#center-left>img{
-	border-radius: 50%;
-	position: absolute;
-    top: 30px;
-}
-#center-right{
-	width: 60%;
-	height: 100%;
-	background:;
-}
-#center-right>p{
-	font-size: 25px;
-	text-align: center;
-}
-#bellow-center{
-	width: 80%;
-	height: 500px;
-
-	display: flex;
-	margin-left: 130px;
-}
-#bellow-center-left{
-	width: 60%;
-	height: 100%;
-
-}
-#bellow-center-left>p{
-	font-size: 25px;
-	text-align: center;
-}
-#bellow-center-right{
-	width: 40%;
-	height: 100%;
-	
-	position: relative;
-}
-#bellow-center-right>img{
-	border-radius: 50%;
-	 position: absolute;
-    top: 45px;
-    left: 30px;
-}
-#footer{
-	width: 80%;
-	height: 150px;
-	background: #ffcc99;
-	margin-left: 130px;
-	position: relative;
-}
-#footer>ul{
-	list-style: none;
-	text-align: center;
-}
-
-#footer>ul>li{
-	font-size: 30px;
-	font-weight: bold;
-	color: #f3f3f3;
-}
-.icon{
-	font-size: 30px;
-	color: #f3f3f3;
-	position: absolute;
-    left: 550px;
-    top: 70px;
-}
-.fa-facebook-official{
-	margin-right: 20px;
-}
-.fa-youtube-play{
-	margin-right: 20px;
-}
-.fa-facebook-official:hover{
-	color: red;
-}
-.fa-youtube-play:hover{
-	color: red;
-}
-.fa-free-code-camp:hover{
-	color: red;
-}
-#footer>ul{
+	width: 100%;
+	height: 60px;
 	line-height: 60px;
 }
-.power1{
-	position: absolute;
-    top: 30px;
-    left: 500px;
+#menu>ul>li{
+	display: inline-table;
+	margin-left: 25px;
+}
+#menu>ul>li>a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-size: 19px;
+}
+.fa{
+	margin-right: 5px;
+}
+#menu>ul>li>a:hover{
+	color: #3399ff;
+}
+#image{
+	background-image: url(http://thuthuatphanmem.vn/uploads/2018/04/10/hinh-nen-anh-nang-binh-minh_052333541.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
 }
 
+#about_me{
+	width: 100%;
+	height: 60px;
 
+	margin-top: 30px;
+}
+#about_me>p{
+	text-transform: uppercase;
+	font-size: 35px;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;
+	line-height: 60px;
+	color: grey;
+}
 
+#text-about-me{
+	width: 100%;
+	height: 150px;
+}
+#textbellow-about-me{
+	width: 80%;
+	height: 100%;
 
+	margin: 0 auto;
+	margin-top: 40px;
+}
+#textbellow-about-me>p{
+	text-align: center;
+	font-size: 19px;
+	color: grey;
+}
+#container{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+#top-container{
+	width: 100%;
+	height:350px;
+	margin: 0 auto;
 
+	display: flex;
+}
+#left-top-container{
+	width: 35%;
+	height: 100%;
+}
+#left-top-container>img{
+	border-radius: 50%;
+	margin-top: 15px;
+	margin-left: 50px;
+}
+#right-top-container{
+	width: 65%;
+	height: 100%;
 
+}
+#right-top-container>p{
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	margin-top: 20px;
+	color: grey;
+}
+#bottom-container{
+	width: 100%;
+	height:340px;
+	margin: 0 auto;
 
+	display: flex;
+	margin-top: 20px;
+}
+#left-bottom-container{
+	width: 65%;
+	height: 100%;
+	
+}
+#left-bottom-container>p{
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	margin-top: 30px;
+	color: grey;
+}
+#right-bottom-container{
+	width: 35%;
+	height: 100%;
+	}
+#right-bottom-container>img{
+	border-radius: 50%;
+	margin-top: 15px;
+	margin-left: 15px; 
+}
 
+#footer{
+	width: 80%;
+	height: 130px;
+	background: #ffcc99;
+	margin: 0 auto;
 
+}
+#footer ul{
+	list-style: none;
+	width: 100%;
+	height: 130px;
+	line-height: 130px;
+}
+#footer ul li{
+	text-align: center;
+	font-size: 33px;
+	font-weight: bold;
+	color: black;
+	line-height: 45px;
 
-
-
+}
+#next-footer{
+	width: 50%;
+	background: ;
+	height: 100px;
+	margin-top: 15px;
+	position: absolute;
+	left: 25%;
+}
+.fa-facebook-official , .fa-youtube-play , .fa-free-code-camp{
+	margin-right: 15px;
+	color: #f3f3f3;
+}
+.fa:hover{
+	color: red;
+}
