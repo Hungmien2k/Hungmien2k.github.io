@@ -1,282 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Bai Tap Buoi 9</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/
-	css/font-awesome.min.css">
+
+<title>Kevin's Kwiz!</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
 
 </head>
+
+
 <body>
-	<div>
-		<div class="content">
-			<img src="https://www.w3schools.com/w3images/profile_girl.jpg">
-		</div>
-		<div class="sidebar">
-			<div class="menu">
-					<input type="checkbox" id="check">
-					<div class="box">
-						<label for="check" class="show-menu-btn">
-						
-							<i class="fa fa-bars" aria-hidden="true"></i>
-						
-						
-						</label>
-					</div>
-					<ul class="next-menu">
-						<a href="#">Home</a>
-						<a href="#">Portfolio</a>
-						<a href="#">About</a>
-						<a href="#">Contact</a>
-						<label for="check" class="hide-menu-btn">
-							<i class="fa fa-plus" aria-hidden="true"></i>
-						</label>
-					</ul>
-					
-			</div>
-			<div class="header">
-				<p class="jane">Jane Doe</p>
-				<p class="text-header">Photographer and Web Designer.</p>
-				<div class="image-responsive">
-					<img src="https://www.w3schools.com/w3images/profile_girl.jpg" style="display: none;">
-				</div>
-				<div class="download">
-					<i class="fa fa-download"></i> Download Resume
-				</div>
-			</div>
-			<div class="my-portfolio">
-				<p>My Portfolio</p>
-			</div>
-			<div class="container">
-				<div class="left-container">
-					<div class="image1">
-						<img src="https://www.w3schools.com/w3images/wedding.jpg">
-					</div>
-					<div class="image2">
-						<img src="https://www.w3schools.com/w3images/rocks.jpg">
-					</div>
-					<div class="image3">
-						<img src="https://www.w3schools.com/w3images/sailboat.jpg">
-					</div>
-				</div>
-				<div class="right-container">
-					<div class="image-1">
-						<img src="https://www.w3schools.com/w3images/underwater.jpg">
-					</div>
-					<div class="image-2">
-						<img src="https://www.w3schools.com/w3images/chef.jpg">
-					</div>
-					<div class="image-3">
-						<img src="https://www.w3schools.com/w3images/wedding.jpg">
-					</div>
-					<div class="image-4">
-						<img src="https://www.w3schools.com/w3images/p6.jpg">
-					</div>
-				</div>
-			</div>
-			<div class="about">
-				<p>About</p>
-			</div>
-			<div class="text-bellow-about">
-				<p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-				</p>
-			</div>
-			<div class="my-skills">
-				<p>My Skills</p>
-			</div>
-			<div class="Photography">
-				<p>Photography</p>
-				<div class="full">
-					<div class="ninety-five">
-						<p>95%</p>
-					</div>
-				</div>
-			</div>
-			<div class="web-design">
-				<p>Web Design</p>
-				<div class="full">
-					<div class="eighty-five">
-						<p>85%</p>
-					</div>
-				</div>
-			</div>
-			<div class="Photoshop">
-				<p>Photoshop</p>
-				<div class="full">
-					<div class="eighty">
-						<p>80%</p>
-					</div>
-				</div>
-			</div>
 
-			<div class="next-section">
-				<div class="left-next-section">
-					<p><span style="font-size: 25px;">14+</span></p>
-					<p>Partners</p>
-				</div>
-				<div class="beetwen1">
-					<p><span style="font-size: 25px;">55+</span></p>
-					<p>Projects Done</p>
-				</div>
-				<div class="beetwen2">
-					<p><span style="font-size: 25px;">89+</span></p>
-					<p>Happy Clients</p>
-				</div>
-				<div class="right-next-section">
-					<p><span style="font-size: 25px;">150+</span></p>
-					<p>Meetings</p>
-				</div>
-			</div>
+	<h1 style="color: #ff9966">Tớ Biết Cậu Tò Mò Mà hehe (Hưng DZ)</h1>
 
-			<div class="next-download">
-					<span class="download1"><i class="fa fa-download"></i> Download Resume</span>
-			</div>
-			<div class="my-reputation">
-				<p>My Reputation</p>
-			</div>
+	<form id = "quiz" name = "quiz">
 
-			<div class="famous-person1">
-				
-					<img src="https://www.w3schools.com/w3images/avatar_smoke.jpg">
-				
-			
-					<p><span style="font-size: 20px; color: black; margin-top: 10px;">Chandler Bing.</span><span style="margin-left: 23px;">Web Designer.</span></p>
-					<p>Jane Doe is just awesome. I am so happy to have met her!</p>
-			
-			</div>
+	
+		<p class = "questions">Cờ Rút Của Bạn Tên Là Gì ?</p>
+		<input id = "textbox" type = "text" name = "question1">
+	
+		<p class = "questions">
+			<span style="color: red ; font-weight: bold;font-size: 18px">Trang à !</span>
+			Cậu Có Muốn Biết Người Yêu của tớ là ai ko.
+		</p>
+		<input type = "radio" id = "mc" name = "question2" value = "Hartford"> Có Chẹ<br>
+		<input type = "radio" id = "mc" name = "question2" value = "Heartford"> Biết Làm Giề<br>
 
-			<div class="famous-person2">
-				
-					<img src="https://www.w3schools.com/w3images/bandmember.jpg">
-				
-				
-					<p><span style="font-size: 20px; color: black;">Chris Fox.</span><span style="margin-left: 23px;">CEO at Mighty Schools.</span></p>
-					<p>Jane Doe saved us from a web disaster.</p>
-				
-			</div>
+		<p class = "questions">Cậu Có Muốn Biết Tại Sao Không ?</p>
 
-			<div class="famous-person3">
-				
-					<img src="https://www.w3schools.com/w3images/avatar_g2.jpg">
-			
-				
-					<p><span style="font-size: 20px; color: black;">Rebecca Flex.</span><span style="margin-left: 23px;"> CEO at Company.</span></p>
-					<p>No one is better than Jane Doe.</p>
-			
-			</div>
+		<input type = "radio" id = "mc" name = "question3" value = "Albany"> Ừ Thì Muốn<br>
+		<input type = "radio" id = "mc" name = "question3" value = "All Benny's"> Tao Ko Care đâu !<br>
 
 
-			<div class="my-price">
-				<p>My Price</p>
-			</div>
+		<input id = "button" type = "button" value = "Click Vào đây để biết nào !" onclick = "check();">
 
-			<div class="price">
-				<div class="left-price">
-					<div class="basic">
-						<p>Basic</p>
-					</div>
-					<div class="Web-Design">
-						<p>Web Design</p>
-					</div>
-					<div class="phoTography">
-						<p>Photography</p>
-					</div>
-					<div class="Storage">
-						<p>5GB Storage</p>
-					</div>
-					<div class="Mail-Support">
-						<p>Mail Support</p>
-					</div>
-					<div class="per-month1">
-						<p style="font-size: 30px; color: #757575;">$ 10</p>
-						<p>per month</p>
-					</div>
-					<div class="sign_up">
-						<div class="sign">
-							<p>Sign-Up</p>
-						</div>
-					</div>
-				</div>
-				<div class="right-price">
-					<div class="basic">
-						<p>Pro</p>
-					</div>
-					<div class="Web-Design">
-						<p>Web Design</p>
-					</div>
-					<div class="phoTography">
-						<p>Photography</p>
-					</div>
-					<div class="Storage">
-						<p>50GB Storage</p>
-					</div>
-					<div class="Mail-Support">
-						<p>Mail Support</p>
-					</div>
-					<div class="per-month1">
-						<p style="font-size: 30px; color: #757575;">$ 25</p>
-						<p>per month</p>
-					</div>
-					<div class="sign_up">
-						<div class="sign">
-							<p>Sign-Up</p>
-						</div>
-					</div>
-				</div>
-			</div>
 
-			<div class="contact-me">
-				<p>Contact Me</p>
-			</div>
-			<div class="infor">
-				<div class="map">
-					<i class="fa fa-map-marker" aria-hidden="true"></i><span style="margin-left: 35px;">Chicago, US</span>
-				</div>
-				<div class="phone">
-					<i class="fa fa-phone" aria-hidden="true"></i><span> Phone: +00 151515</span>
-				</div>
-				<div class="email">
-					<i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: mail@mail.com</span>
-				</div>
-			</div>
+	</form>
 
-			<div class="image-map">
-				<img src="https://www.w3schools.com/w3images/map.jpg">
-			</div>
-			<div class="send-message">
-				<p>Lets get in touch. Send me a message:</p>
-			</div>
-			<div class="personal-information">
-				<form>
-    				<input class="name" type="text" name="name" placeholder="  Name">
-
-   					<input class="emails" type="text" name="email" placeholder="  Email">
-
-   					<input class="Subject" type="Subject" name="Subject" placeholder="  Subject">
-
-   					<input class="Message" type="Message" name="Message" placeholder="  Message">
-				</form>
-			</div>
-
-			<div class="SEND-Message">
-				<div class="submit">
-					<i class="fa fa-paper-plane-o" aria-hidden="true"></i> SEND MESSAGE
-				</div>
-			</div>
-
-			<div class="footer">
-				
-					<i class="fa fa-facebook-official" aria-hidden="true"></i>
-					<i class="fa fa-instagram" aria-hidden="true"></i>
-					<i class="fa fa-snapchat" aria-hidden="true"></i>
-					<i class="fa fa-pinterest-p" aria-hidden="true"></i>
-					<i class="fa fa-twitter" aria-hidden="true"></i>
-					<i class="fa fa-linkedin" aria-hidden="true"></i>
-					<p>Powered by <span>w3.css</span></p>
-				
-			</div>
-		</div>
+	<div id = "after_submit">
+		<p id = "number_correct"></p>
+		<p id = "message"></p>
+		<img id = "picture">
 	</div>
-</body>
 </html>
+
+</body>
