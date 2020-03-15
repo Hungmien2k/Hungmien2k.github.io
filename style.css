@@ -2,96 +2,18 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
-
-/*
 #quiz {
 	margin-left: 10px;
 	background: #d2def2;
 	padding: 10px 20px 10px 20px;
-	width: 400px;
+	width: 530px;
 	border-radius: 20px;
 	float: left;
-
 }
 
 input {
 	margin-bottom: 20px;
 	display: block;
-}
-
-#textbox {
-	height: 25px;
-	font-size: 16px;
-	border-radius: 5px;
-	border: none;
-	padding-left: 5px;
-}
-
-
-#button {
-	background: green;
-	border: none;
-	border-radius: 5px;
-	padding: 10px;
-	color: white;
-	font-size: 16px;
-	transition-duration: .5s;
-	margin-top: 15px;
-}
-
-
-
-#button:hover {
-	background: white;
-	border: 1px solid green;
-	color: black;
-	cursor: pointer;
-
-}
-
-#after_submit {
-	visibility: hidden;
-	background: #ff5459;
-	padding: 10px 20px 10px 20px;
-	width: 400px;
-	border-radius: 20px;
-	float: left;
-	margin-left: 20px;
-	font-size: 30px;
-
-
-}
-
-#picture {
-	width: 375px;
-	height: 245px;
-}
-
-
-
-#mc {
-	display: inline;
-} 
-*/
-#quiz {
-	margin-left: 30px;
-	background: #d2def2;
-	padding: 10px 20px 10px 20px;
-	width: 400px;
-	border-radius: 20px;
-	float: left;
-}
-input {
-	margin-bottom: 20px;
-	display: block;
-}
-
-#textbox {
-	height: 25px;
-	font-size: 16px;
-	border-radius: 5px;
-	border: none;
-	padding-left: 5px;
 }
 
 #button {
@@ -117,7 +39,7 @@ input {
 	visibility: hidden;
 	background: #ff5459;
 	padding: 10px 20px 10px 20px;
-	width: 500px;
+	width: 450px;
 	border-radius: 20px;
 	float: left;
 	margin-left: 20px;
@@ -125,9 +47,21 @@ input {
 }
 
 #picture {
-	width: 500px;
+	width: 400px;
 	height: 305px;
+	margin: 0 auto;
 }
+
+
+
 #mc {
 	display: inline;
+	width: 20px;
+	height: 20px;
+} 
+
+#content{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
 }
