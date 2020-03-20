@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	
+	<h1>Đăng Kí Thông Tin</h1>
+
+	Tên Đăng Nhập : <input type="text" name="Name" value="" id="name"  /><br><br>
+	Mật Khẩu : <input type="password" name="name" value="" id="pass" /><br><br>
+	Giới Tính : <input type="radio" name="gioitinh" checked /> Nam
+				<input type="radio" name="gioitinh" /> Nữ<br><br>
+	Số Điện Thoại : <input type="text" name="dienthoai" id="dienthoai" /><br><br>
+	Giới Thiệu : <textarea id="gioithieu"></textarea><br><br>
+	<input type="button" name="dangky" value="Đăng ký" onclick = "handle()" />
+	<input type="button" name="dangky" value="Hủy Bỏ" onclick = "handleCancel()" />
+	<script type="text/javascript">
+		
+
+		function handle(){
+
+			var name = document.getElementById("name").value;
+			var pass = document.getElementById("pass").value;
+			var dienthoai = document.getElementById("dienthoai").value;
+			var GioiThieu = document.getElementById("gioithieu").value;
+			if(name === "" || pass === "" || dienthoai === "" || GioiThieu === ""){
+				alert("Bạn Nhập Chưa Đủ Thông Tin");
+			}
+			if(dienthoai != ""){
+				for (var i = 0; i < dienthoai.length; i++) {
+					if(dienthoai.charAt(i) != "*" && dienthoai.charAt(i) != "-"){
+						alert("Ô Điện Thoại Phải Nhập * và -");
+						var d = 1;
+						break;
+					}
+					else{
+						d = 0;
+					}
+				}
+			}
+
+			if(d === 0){
+				alert("Bạn Đã Đăng Kí Thành Công");
+			}
+		}
+
+
+		function handleCancel(){
+			document.getElementById("name").value = "";
+			document.getElementById("pass").value = "";
+			document.getElementById("dienthoai").value = "";
+			document.getElementById("gioithieu").value = "";
+
+			alert("Bạn Đã Hủy Thành Công");
+		}
+	</script>
+</body>
+</html>
